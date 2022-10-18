@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
   * main -prints putchar followed by a newline
   * Return: Return 0 when successful
@@ -15,7 +16,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 	return (0);
-	
 }
 
