@@ -4,7 +4,7 @@
   * print_times_table - prints the n times table
   * @n: parameter of print_times_table function
   */
-void print_times_table(int n);
+void print_times_table(int n)
 {
 	int i, j, k;
 
