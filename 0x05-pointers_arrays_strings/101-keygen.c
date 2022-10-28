@@ -36,7 +36,7 @@ int main(void)
 			password[i] = symb[rand() % symbol_length];
 			printf("%c", password[i]);
 		}
-		elae if (randomchar == 2)
+		else if (randomchar == 2)
 		{
 			password[i] = lowLetters[rand() % low_length];
 			printf("%c", password[i]);
@@ -48,7 +48,6 @@ int main(void)
 		}
 	}
 	return (0);
-}
 }
 
 
